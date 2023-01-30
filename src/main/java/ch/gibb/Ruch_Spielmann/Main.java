@@ -11,10 +11,16 @@ public class Main {
                 // Saldo eines Bankkontos
                 double bankBalance = 1000.50;
 
-                // Bezeichnung einer bestimmten Linie auf dem Schachbrett
+                // Bezeichnung einer bestimmten Linie und Reihe auf dem Schachbrett
                 byte chessLine = 2;
-                char chessRow = 'd'; // d = Unicode
+                char chessRow = 'c'; //Unicode: 99
 
+        // Ausgabe der Variablen
+        System.out.println("Anzahl der Lernenden in einer Klasse: " + numberOfStudents);
+        System.out.println("Zustand eines Lichtschalters: " + lightSwitch);
+        System.out.println("Saldo eines Bankkontos: " + bankBalance);
+        System.out.println("Bezeichnung einer bestimmten Linie auf dem Schachbrett: " + chessLine);
+        System.out.println("Bezeichnung einer bestimmten Reihe auf dem Schachbrett: " + chessRow);
     }
     public static void xgleichy(){
         int x=0;
@@ -22,6 +28,6 @@ public class Main {
         // x = Y; -> Y ist nicht initialisiert
         // x = y; -> ein long Wert kann nicht in einen kleineren Wert gespeichert werden.
         x = (int) y; // Wenn man den wert castet (int) kann er gespeichert werden.
-
     }
+
 }
