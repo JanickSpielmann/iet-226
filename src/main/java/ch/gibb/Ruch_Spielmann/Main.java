@@ -27,7 +27,7 @@ public class Main {
         long y= 1000;
         // x = Y; -> Y ist nicht initialisiert
         // x = y; -> ein long Wert kann nicht in einen kleineren Wert gespeichert werden.
-        x = (int) y; // Wenn man den wert castet (int) kann er gespeichert werden.
+        x = (int) y; // Wenn man den Wert castet (int) kann er gespeichert werden.
     }
 
 }
