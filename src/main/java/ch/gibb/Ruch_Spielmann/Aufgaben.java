@@ -1,9 +1,8 @@
 package ch.gibb.Ruch_Spielmann;
 
-import javax.swing.undo.CannotUndoException;
 import java.util.Random;
 
-public class Main {
+public class Aufgaben {
     public static void main(String[] args) {
         // Anzahl der Lernenden in einer Klasse
         int numberOfStudents = 30;
@@ -27,6 +26,10 @@ public class Main {
 
         tannenbaum(8);
         ggt(7, 2);
+
+        for (int i = 0; i < 10; i++) {
+            xo();
+        }
     }
 
     public static void xgleichy() {
@@ -62,19 +65,7 @@ public class Main {
             q = r;
         }
         System.out.println("Der grösste gemeinsame Teiler von " + pEingabe + " und " + qEingabe + " ist " + p);
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
-        xo();
+
 
     }
 
